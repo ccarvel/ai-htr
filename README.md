@@ -136,4 +136,4 @@ Extracted text from GEMINI saved to: document_gemini_extracted_20241225-143022.t
 - **No providers detected**: Check `.env` file configuration
 
 ----
-This software is freely distributed under the BSD 3-clause OSI license. Please see the LICENSE file for more information.
+This software is freely distributed under the BSD 3-clause OSI license. Please see the [LICENSE](https://github.com/ccarvel/ai-htr/tree/main?tab=BSD-3-Clause-1-ov-file#) file for more information.
