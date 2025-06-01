@@ -46,26 +46,26 @@ You only need to provide keys for the providers you want to use.
 
 ```bash
 # Extract text using all available providers
-python multi_extractor2.py document.pdf
+python multi_extractor.py document.pdf
 
 # Extract text from an image
-python multi_extractor2.py image.png
+python multi_extractor.py image.png
 ```
 
 ### Advanced Usage
 
 ```bash
 # Use a specific provider
-python multi_extractor2.py document.pdf --provider openai
+python multi_extractor.py document.pdf --provider openai
 
 # Use a specific model
-python multi_extractor2.py image.jpg --provider gemini --model gemini-1.5-flash-latest
+python multi_extractor.py image.jpg --provider gemini --model gemini-1.5-flash-latest
 
 # Custom extraction prompt
-python multi_extractor2.py receipt.png --prompt "Extract all prices and item names from this receipt"
+python multi_extractor.py receipt.png --prompt "Extract all prices and item names from this receipt"
 
 # Windows with custom Poppler path
-python multi_extractor2.py document.pdf --poppler_path "C:\poppler\bin"
+python multi_extractor.py document.pdf --poppler_path "C:\poppler\bin"
 ```
 
 ## Command Line Arguments
