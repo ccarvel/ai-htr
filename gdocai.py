@@ -7,9 +7,9 @@ from google.api_core.exceptions import InvalidArgument
 # --- Configuration ---
 # Replace with your project ID, location (region of your processor), and processor ID
 # You can get these from the Google Cloud Console after creating a processor.
-DEFAULT_PROJECT_ID = "superb-runner-461619-r8"  # REQUIRED
+DEFAULT_PROJECT_ID = "superb-runXXXX"  # REQUIRED
 DEFAULT_LOCATION = "us"  # e.g., 'us' or 'eu' - MUST match your processor's region
-DEFAULT_PROCESSOR_ID = "a00897911b5038f3"  # REQUIRED
+DEFAULT_PROCESSOR_ID = "a00897XXXX"  # REQUIRED
 
 # Supported MIME types by this script (and common for Document AI)
 # Document AI might support more, but these are the ones requested.
